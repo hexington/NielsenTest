@@ -1,0 +1,21 @@
+package com.nielsen.services;
+
+import java.util.Date;
+import java.util.List;
+
+import com.nielsen.models.Appointment;
+
+public interface AppointmentService {
+
+	boolean saveAppointment(Appointment appointment);
+	
+	public int getAppointmentId();
+	
+	public boolean deleteAppointment(Integer apptNo);
+	
+	public Appointment retrieveAppointment(Integer apptNo);
+	
+	public boolean updateAppointment(Appointment appointment);
+	
+	public List<Appointment> getRangeOfAppointments(Date firstDate, Date secondDate);
+}

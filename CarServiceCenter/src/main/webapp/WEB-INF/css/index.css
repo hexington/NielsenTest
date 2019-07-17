@@ -1,0 +1,50 @@
+.pseudo-link {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+#container {
+	width:600px; 
+	margin: auto;
+}
+
+#createDiv, #deleteDiv, #retrieveDiv, #updateDiv, #rangeDiv, #retrieveDetails, #appointmentId, #dynamicTable {
+	display: none;
+}
+
+#priceErr, #dateOfApptErr, #deleteErr, #retrieveErr, #updateErr, #firstDateErr, #secondDateErr, #updateDateOfApptErr, #updatePriceErr, 
+#firstNameErr, #lastNameErr, #carErr, #updateFirstNameErr, #updateLastNameErr, #updateCarErr
+{
+	display: none;
+	color: red;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+ 
+table#rangeTable {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
