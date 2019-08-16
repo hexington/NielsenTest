@@ -85,7 +85,7 @@
 			</div>
 			
 			<div id="deleteDiv">
-				<form role="form" action="deleteAppointment" method="POST" id="deleteform">
+				<form role="form" action="deleteAppointment" method="DELETE" id="deleteform">
 					<div>
 						<label for="deleteAppt">Enter Appointment Number to Delete:</label>
 						<div>
@@ -101,7 +101,7 @@
 			</div>
 			
 			<div id="retrieveDiv">
-				<form role="form" action="retrieveAppointment" method="POST" id="retrieveform">
+				<form role="form" action="retrieveAppointment" method="GET" id="retrieveform">
 					<div>
 						<label for="retrieveAppt">Enter Appointment Number to Retrieve:</label>
 						<div>
@@ -150,7 +150,7 @@
 			</div>
 			
 			<div id="updateDiv">
-				<form role="form" action="retrieveAppointment" method="POST" id="updateapptform">
+				<form role="form" action="retrieveAppointment" method="GET" id="updateapptform">
 					<div>
 						<label for="updateAppt">Enter Appointment Number to Update:</label>
 						<div>
@@ -164,7 +164,7 @@
 				<br/>
 				<div id="updateMsg"></div>
 				<div id="updateDetails">
-					<form action="updateAppointment" method="POST" id="updateform">
+					<form action="updateAppointment" method="PUT" id="updateform">
 					<div>
 						<label for="appointmentId">Appointment Id:</label>
 						<div>
@@ -227,7 +227,7 @@
 			
 			<div id="rangeDiv">
 				<div id="rangeDetails">
-					<form action="rangeAppointment" method="POST" id="rangeform">
+					<form action="rangeAppointment" method="GET" id="rangeform">
 						<div>
 							<label for="firstDate">From:</label>
 							<div>
